@@ -1,5 +1,7 @@
 import { Sequelize } from "sequelize";
+import { configDotenv } from "dotenv";
 
+configDotenv()
 const DB = {
     dialect: "mysql",
     database: process.env.DB_NAME,

@@ -1,9 +1,9 @@
 {
   "name": "api-absensi-pplg",
   "version": "1.0.0",
-  "main": "api.mjs",
+  "main": "main.mjs",
   "scripts": {
-    "dev": "nodemon --env-file=.env api.mjs"
+    "dev": "nodemon ./src/main.mjs"
   },
   "keywords": [],
   "author": "FPB.NAME",

@@ -2,7 +2,9 @@ import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
 import accountRouter from "./routes/account.mjs";
+import { configDotenv } from "dotenv";
 
+configDotenv()
 const app = express();
 const api_version = process.env.API_VERSION
 const api_name = process.env.API_NAME + api_version
