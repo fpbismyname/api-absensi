@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "api.mjs",
   "scripts": {
-    "api": "nodemon --env-file=.env api.mjs"
+    "dev": "nodemon --env-file=.env api.mjs"
   },
   "keywords": [],
   "author": "FPB.NAME",
